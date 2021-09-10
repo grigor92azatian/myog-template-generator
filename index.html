@@ -8,13 +8,11 @@
 </head>
 <body>
     <h1>Template Generator</h1>
-    <form class="unitsForm" action="">
-        <p>Units</p>
-        <input name="units" type="radio" id="unit1" value="inches">
-        <label for="unit1">Inches</label>
-        <input name="units" type="radio" id="unit2" value="centimeters">
-        <label for="unit2">Centimeters</label>
-    </form>
+    <div class="unitSelectionContainer">
+        <h3>Units</h3>
+        <button class="unitButton imperial">Imperial</button>
+        <button class="unitButton metric">Metric</button>
+    </div>
     <div class="projectContainer">
         <h2 class="projectName">Square Bottom Bag</h2>
 
@@ -23,23 +21,23 @@
                 <h3>Enter Values Below</h3>
                 <p>Seam Allowance</p>
                     <input name="seamAllowance" type="radio" id="sa1" value=".25">
-                    <label for="sa1">1/4 inch</label>
+                    <label for="sa1">1/4 in</label>
                     <input name="seamAllowance"type="radio" id="sa2" value=".375">
-                    <label for="sa2">3/8 inch</label>
+                    <label for="sa2">3/8 in</label>
                     <input name="seamAllowance"type="radio" id="sa3" value=".5">
-                    <label for="sa3">1/2 inch</label>
+                    <label for="sa3">1/2 in</label>
     
                 <p>Top Opening Hem Width</p>
                     <input name="topHemWidth" type="radio" id="hem1" value=".25">
-                    <label for="hem1">1/4 inch</label>
+                    <label for="hem1">1/4 in</label>
                     <input name="topHemWidth" type="radio" id="hem2" value=".375">
-                    <label for="hem2">3/8 inch</label>
+                    <label for="hem2">3/8 in</label>
                     <input name="topHemWidth" type="radio" id="hem3" value=".5">
-                    <label for="hem3">1/2 inch</label>
+                    <label for="hem3">1/2 in</label>
                     <input name="topHemWidth" type="radio" id="hem4" value=".75">
-                    <label for="hem4">3/4 inch</label>
+                    <label for="hem4">3/4 in</label>
                     <input name="topHemWidth" type="radio" id="hem5" value="1">
-                    <label for="hem5">1 inch</label>
+                    <label for="hem5">1 in</label>
     
                 <p>Finished Dimensions</p>
                 <div class="finishedDimensionsContainer">
