@@ -6,38 +6,95 @@
     font-family: sans-serif;
 }
 body{
+    /* Dimensions */
+
+    /* Other */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 h1{
+    /* Dimensions */
+    height: auto;
+    /* Other */
     font-size: 50px;
 }
 .projectContainer{
-    border: 1px solid black;
+    /* Dimensions */
+    width: 600px;
+    height: 600px;
+    /* Other */
+    border: 5px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
-}
-.projectContainer h3{
-    text-align: center;
-    width: 100%;
 }
 .projectName{
+    /* Dimensions */
+    width: 100%;
+    /* Other */
     text-align: center;
+    background-color: lightblue;
 }
-.projectPicture{
-    height: 250px;
+.topSection, .bottomSection{
+    /* Dimensions */
+    width: 100%;
+    height: 50%;
+    /* Other */
+    display: flex;
+    flex-direction: row;
 }
 .userInputContainer{
-    border: 1px solid red;
+    /* Dimensions */
+    width: 60%;
+    /* Other */
 }
-.userInputContainer p{
+.projectImgContainer, .templateImgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectImgContainer{
+    /* Dimensions */
+    width: 40%;
+    /* Other */
+}
+.projectImg, .templateImg{
+    height: 250px;
+}
+.templateImgContainer{
+    /* Dimensions */
+    width: 60%;
+    /* Other */
+}
+.templateInfo{
+    /* Dimensions */
+    width: 40%;
+    /* Other */
+}
+
+
+
+
+
+
+
+
+
+/* .projectContainer h3{
+    text-align: center;
+    width: 100%;
+} */
+
+/* .projectPicture{
+    height: 250px;
+} */
+
+/* .userInputContainer p{
     font-weight: bold;
     font-size: large;
-}
-.finishedDimensionsContainer{
+} */
+/* .finishedDimensionsContainer{
     border: 1px solid green;
     display: flex;
     flex-direction: column;
@@ -54,4 +111,4 @@ h1{
 }
 .templatePicture{
     width: 200px;
-}
+} */
