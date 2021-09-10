@@ -19,15 +19,18 @@
         <section class="topSection">
             <form class="userInputContainer" action="">
                 <h3>Enter Values Below</h3>
-                <p>Seam Allowance</p>
+                <div class="saContainer">
+                    <h4>Seam Allowance</h4>
                     <input name="seamAllowance" type="radio" id="sa1" value=".25">
                     <label for="sa1">1/4 in</label>
                     <input name="seamAllowance"type="radio" id="sa2" value=".375">
                     <label for="sa2">3/8 in</label>
                     <input name="seamAllowance"type="radio" id="sa3" value=".5">
                     <label for="sa3">1/2 in</label>
-    
-                <p>Top Opening Hem Width</p>
+                </div>
+
+                <div class="topHemContainer">
+                    <h4>Top Opening Hem Width</h4>
                     <input name="topHemWidth" type="radio" id="hem1" value=".25">
                     <label for="hem1">1/4 in</label>
                     <input name="topHemWidth" type="radio" id="hem2" value=".375">
@@ -38,18 +41,19 @@
                     <label for="hem4">3/4 in</label>
                     <input name="topHemWidth" type="radio" id="hem5" value="1">
                     <label for="hem5">1 in</label>
-    
-                <p>Finished Dimensions</p>
+                </div>
+
                 <div class="finishedDimensionsContainer">
+                    <h4>Finished Dimensions</h4>
                     <label for="height">Height:</label>
-                    <input type="text" id="height">
+                    <input type="text" id="height" autocomplete="off">
                     <label for="width">Width:</label>
-                    <input type="text" id="width">
+                    <input type="text" id="width" autocomplete="off">
                     <label for="length">Length:</label>
-                    <input type="text" id="length">
+                    <input type="text" id="length" autocomplete="off">
                 </div>
     
-                <button>Generate Template</button>
+                <button class="generateButton">Templatize!</button>
             </form>
             <div class="projectImgContainer">
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit excepturi commodi earum animi nulla qui sed adipisci sapiente, voluptatem maiores, aliquid saepe nihil est cum! Quidem autem earum possimus exercitationem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum fuga tempore aut. Alias non nesciunt quasi cum harum quis animi dolores quia vitae minus corrupti, hic veritatis deleniti? Et.</p> -->
