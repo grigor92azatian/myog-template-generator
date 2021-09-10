@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+.projectContainer{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+}
+.projectContainer h3{
+    text-align: center;
+    width: 100%;
+}
+.projectName{
+    text-align: center;
+}
+.projectPicture{
+    height: 250px;
+}
+.userInputContainer{
+    border: 1px solid red;
+}
+.userInputContainer p{
+    font-weight: bold;
+    font-size: large;
+}
+.generatedOutput{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.templateContainer{
+
+}
+.templatePicture{
+    height: 200px;
+}

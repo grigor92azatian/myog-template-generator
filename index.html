@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYOG Template Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Template Generator</h1>
+    <div class="projectContainer">
+        <h2 class="projectName">Square Bottom Bag</h2>
+        <img class="projectPicture" src="" alt="insert picture of finished project">
+        <form class="userInputContainer" action="">
+            <h3>Enter Values Below</h3>
+            <p>Units</p>
+                <input name="units" type="radio" id="unit1" value="inches">
+                <label for="unit1">Inches</label>
+                <input name="units" type="radio" id="unit2" value="centimeters">
+                <label for="unit2">Centimeters</label>
+
+            <p>Seam Allowance</p>
+                <input name="seamAllowance" type="radio" id="sa1" value=".25">
+                <label for="sa1">1/4 inch</label>
+                <input name="seamAllowance"type="radio" id="sa2" value=".375">
+                <label for="sa2">3/8 inch</label>
+                <input name="seamAllowance"type="radio" id="sa3" value=".5">
+                <label for="sa3">1/2 inch</label>
+
+            <p>Top Opening Hem Width</p>
+                <input name="topHemWidth" type="radio" id="hem1" value=".25">
+                <label for="hem1">1/4 inch</label>
+                <input name="topHemWidth" type="radio" id="hem2" value=".375">
+                <label for="hem2">3/8 inch</label>
+                <input name="topHemWidth" type="radio" id="hem3" value=".5">
+                <label for="hem3">1/2 inch</label>
+                <input name="topHemWidth" type="radio" id="hem4" value=".75">
+                <label for="hem4">3/4 inch</label>
+                <input name="topHemWidth" type="radio" id="hem5" value="1">
+                <label for="hem5">1 inch</label>
+
+            <p>Finished Dimensions</p>
+                <label for="height">Height:</label>
+                <input type="text" id="height">
+                <label for="width">Width:</label>
+                <input type="text" id="width">
+                <label for="length">Length:</label>
+                <input type="text" id="length">
+
+            <button>Generate Template</button>
+        </form>
+        <div class="generatedOutput">
+            <!-- <h3>Output Values Below</h3> -->
+            <div class="templateContainer">
+                <h4>Body Panel</h4>
+                <img class="templatePicture" src="" alt="insert picture of body panel template">
+                <p>Length:</p>
+                <p>Width:</p>
+            </div>
+            <div class="templateContainer">
+                <h4>Bottom Panel</h4>
+                <img class="templatePicture" src="" alt="insert picture of bottom panel template">
+                <p>Length:</p>
+                <p>Width:</p>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
