@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MYOG Template Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/sewing machine favicon.png">
 </head>
 <body>
     <h1>Template Generator</h1>
     <div class="unitSelectionContainer">
         <h3>Units</h3>
-        <button class="unitButton imperial">Imperial</button>
-        <button class="unitButton metric">Metric</button>
+        <button type="button" class="unitButton imperial">Imperial</button>
+        <button type="button" class="unitButton metric">Metric</button>
     </div>
     <div class="projectContainer">
         <h2 class="projectName">Square Bottom Bag</h2>
@@ -53,7 +54,7 @@
                     <input type="text" id="length" autocomplete="off">
                 </div>
     
-                <button class="generateButton">Templatize!</button>
+                <button type="button" class="generateButton" onclick="getUserInput()">Templatize!</button>
             </form>
             <div class="projectImgContainer">
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit excepturi commodi earum animi nulla qui sed adipisci sapiente, voluptatem maiores, aliquid saepe nihil est cum! Quidem autem earum possimus exercitationem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum fuga tempore aut. Alias non nesciunt quasi cum harum quis animi dolores quia vitae minus corrupti, hic veritatis deleniti? Et.</p> -->
